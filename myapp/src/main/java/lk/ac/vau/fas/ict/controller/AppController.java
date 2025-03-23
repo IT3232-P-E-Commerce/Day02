@@ -13,7 +13,7 @@ public class AppController {
 	}
 	
 	@GetMapping("/name")
-	public String myMsg() {
+	public String myName() {
 		return "my name is springboot";
 	}
 }
