@@ -11,4 +11,9 @@ public class AppController {
 	public String myMsg() {
 		return "Hello springboot";
 	}
+	
+	@GetMapping("/name")
+	public String myMsg() {
+		return "my name is springboot";
+	}
 }
